@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</Citypollutionmonitoringand-alertsystem>
+    <title>Portfolio</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -42,6 +42,14 @@
             font-style: italic;
             margin-top: 20px;
         }
+        .course-details {
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            gap: 10px;
+        }
+        .course-details p {
+            margin: 5px 0;
+        }
     </style>
 </head>
 <body>
@@ -51,30 +59,37 @@
 
         <h2>🛠 Projects</h2>
         <ul>
-            <li><strong>Project 1:City pollution monitoring system.</li>
-            
+            <li><strong>Project 1:</strong> City pollution monitoring system.</li>
         </ul>
 
         <h2>🚀 Skills</h2>
         <ul>
-            <li>C++, Python
-            <li>Data Structures and Algorithms
-          
+            <li>C++, Python</li>
+            <li>Data Structures and Algorithms</li>
         </ul>
 
         <h2>🌐 Find Me Online</h2>
         <ul>
-           https://in.linkedin.com/in/k-s-shreyash-b985842ab
+            <li><a href="https://in.linkedin.com/in/k-s-shreyash-b985842ab" target="_blank">LinkedIn</a></li>
         </ul>
 
-        <h2>Course Details</h2>
-        <p><strong>Course Name:</strong>Design and Analysis of Algorithms</p>
-        <p><strong>Course Code:</strong> 24ECSC205</p>
-        <p><strong>Name:</strong> K S Shreyash</p>
-        <p><strong>SRN:</strong> 02FE23BCS119</p>
-        <p><strong>Course Instructor:</strong> Prof Vaishali Y. Parab</p>
-        <p><strong>University:</strong> KLE Technological University Belgaum</p>
-        <p><strong>Portfolio Topic/Domain:</strong> Google</p>
+        <h2>📚 Course Details</h2>
+        <div class="course-details">
+            <p><strong>Course Name:</strong></p>
+            <p>Design and Analysis of Algorithms</p>
+            <p><strong>Course Code:</strong></p>
+            <p>24ECSC205</p>
+            <p><strong>Name:</strong></p>
+            <p>K S Shreyash</p>
+            <p><strong>SRN:</strong></p>
+            <p>02FE23BCS119</p>
+            <p><strong>Course Instructor:</strong></p>
+            <p>Prof Vaishali Y. Parab</p>
+            <p><strong>University:</strong></p>
+            <p>KLE Technological University Belgaum</p>
+            <p><strong>Portfolio Topic/Domain:</strong></p>
+            <p>Google</p>
+        </div>
 
         <p class="quote">“The only way to do great work is to love what you do.” – Steve Jobs</p>
     </div>
